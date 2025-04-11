@@ -1,9 +1,10 @@
 # Password Manager 
 ## Description
-What and Why?
+Python script to safely encrypt and decrypt passwords using Fernet symmetric encryption, with error handling and progress reporting with logging. The project includes facilities for saving and loading keys and encrypted passwords, with a simple-to-use interface for testing encryption and decryption operations.
 
-## Languages and Test Environement
+## Languages and Utilites Used
 - Python
+- Fernet
 - Replit
 
 ## Setup
