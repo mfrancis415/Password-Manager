@@ -25,6 +25,10 @@ password = "MySuperSecret123"
 encrypted_password = cipher.encrypt(password.encode())
 print("Encrypted password:", encrypted_password)
 
-# Step 5: Decrypt the password
+#Step 5: Save the encrptyed password to a file
+with open("encrypted_password.txt", "wb") as file:
+    file.write(encrypted_password)
+
+# Step 6: Decrypt the password
 decrypted_password = cipher.decrypt(encrypted_password).decode()
 print("Decrypted password:", decrypted_password)
